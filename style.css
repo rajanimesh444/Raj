@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.nav{
+    height: 25vw;
+    width: 100%;
+    background-color: bisque;
+   
+    
+}
+.nav img{
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 25vw;
+    width: 100%;
+
+}
+.name-tag {
+    display: flex;
+    
+}
+.name-tag h3{
+    margin-left: 1.5vw;
+    font-weight: 500;
+}
+.data h3:nth-child(1){
+    margin-bottom: 1vw;
+    font-size: 1.8vw;
+    
+}
+.data{
+    margin-top: 1vw;
+    
+}
+.name-tag .img-logo{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 20vw;
+    /* background-color: red; */
+    margin: 1vw 1vw;
+}
+.name-tag .img-logo img{
+   
+    height: 8vw;
+    width: 8vw;
+    border-radius: 20vw;
+    object-fit:cover;
+
+
+}
+.rounded{
+    height: 4vw;
+    width: 90%;
+    background-color: rgb(11, 66, 149);
+    color: aliceblue;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    padding: 0.1px;
+}
+.rounded h3{
+    text-align: center;
+    margin-top: 1.5vw;
+    font-weight: 500;
+}
+.rounded:hover{
+    box-shadow: 4px 2px 2px rgba(8,3,4,5);
+    cursor: pointer;
+}
+.network h3{
+    padding: 0.2vw 5vw;
+    font-weight: 500;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+.network h3 i{
+    font-size: 2vw;
+    margin-left: 9vw;
+}
+.network h3 i:hover{
+    color:rgb(11, 66, 149);
+
+}
+.network h4{
+    font-size: 1vw;
+    margin-left: 13.5vw;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.first-card{
+    display: flex;
+    height: 27%;
+    width: 100%;
+}
+.left{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+    margin-left: 13vw;
+    margin-top: 1vw;
+
+}
+.right{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    margin-left: 13vw;
+    margin-top: 1vw;
+
+}
+.first-card .left img{
+    height: 10vw;
+    width: 100%;
+
+}
+.first-card .left .data-contain h2{
+    text-align: center;
+    font-weight: 500;
+
+}
+.first-card .right img{
+    height: 10vw;
+    width: 100%;
+
+}
+.first-card .right .data-contain-2 h2{
+    text-align: center;
+    font-weight: 500;
+
+}
+.products{
+    height: 5%;
+    width: 100%;
+    margin-top: 2vw;
+    
+    
+}
+.products h2{
+    margin-left: 7vw;
+    font-weight:500 ;
+}
+.cards{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 3vw;margin-top: 2vw;
+
+}
+#left{
+    width: 40%;
+    height: 100%;
+   
+   
+    margin-left: 12vw;
+}
+#right{
+    width: 40%;
+    height: 100%;
+   
+    
+}
+#left img{
+    height: 16vw;
+    width: 100%;
+   
+}
+#right img{
+    height: 16vw;
+    width: 100%;
+   
+}
+#left .bottom h2{
+    text-align: center;
+    margin-top: .4vw;
+    font-weight: 500;
+    padding: 1vw;
+
+}
+#left .bottom h2:hover{
+    color: yellow;
+}
+#right .bottom h2{
+    text-align: center;
+    margin-top: .4vw;
+    font-weight: 500;
+    padding: 1vw;
+
+}
+#right .bottom h2:hover{
+    color: yellow;
+}
+
+.cards-2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 3vw;margin-top: 2vw;
+  
+
+}
+#left-card{
+    width: 40%;
+    height: 100%;
+   
+   
+    margin-left: 12vw;
+}
+#right-card{
+    width: 40%;
+    height: 100%;
+  
+
+}
+#left-card .bottom h2{
+    text-align: center;
+    margin-top: .4vw;
+    font-weight: 500;
+    padding: 1vw;
+    
+
+}
+#left-card .bottom h2:hover{
+    color: yellow;
+}
+#right-card .bottom h2{
+    text-align: center;
+    margin-top: .4vw;
+    font-weight: 500;
+    padding: 1vw;
+
+}
+#right-card .bottom h2:hover{
+    color: yellow;
+}
+#left-card img{
+    height: 16vw;
+    width: 100%;
+   
+}
+#right-card img{
+    height: 16vw;
+    width: 100%;
+   
+}
+.cards-3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 3vw;margin-top: 2vw;
+
+}
+#only-one{
+    width: 40%;
+    height: 100%;
+    
+    margin-left: 12vw;
+}
+#only-one img{
+    height: 16vw;
+    width: 100%;
+}
+#only-one .bottom h2{
+    text-align: center;
+    margin-top: .4vw;
+    font-weight: 500;
+    padding: 1vw;
+
+}
+#only-one .bottom h2:hover{
+    color: yellow;
+}
+.bottom{
+    background-color: rgb(11, 149, 27);
+   color: aliceblue;
+   border-radius: 1vw;
+   cursor: pointer;
+   ;
+}
+
+.btn{
+    
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.btn h5{
+    font-weight: 500;
+    background-color: rgb(11, 66, 149);
+    color: aliceblue;
+    display: inline-block;
+    border-radius: 2vw;
+    font-size: 1vw;
+    padding: 0.5vw 0.5vw;
+    cursor: pointer;
+    margin-top:1.5vw ;
+}
+.btn h5:hover{
+    color: yellow;
+}
+.footer{
+    width: 100%;
+    height: 3.4vw;
+    background-color: rgb(11, 66, 149);
+    color: aliceblue;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+}
+.footer .logo{
+    width: 5%;
+    height: 100%;
+    
+}
+.footer .logo img{
+    height: 3vw;
+    width: 5vw;
+}
+.footer .heading h2{
+   font-weight: 500;
+   font-size: 0.9vw;
+   margin-left: 2px;
+}
+
+
+@media screen and (max-width: 768px){
+    .nav{
+        height: 30vw;
+    }
+    .nav img{
+        height: 30vw;
+    }
+    .name-tag h3{
+        font-size: 1.5vw;
+    }
+    .name-tag .img-logo{
+        height: 10vw;
+        width: 10vw;
+    }
+    .rounded{
+        height: 5vw;
+    }
+    .rounded h3{
+        font-size: 1.5vw;
+    }
+    .network h3{
+        padding: 0.2vw 3vw;
+        font-weight: 500;
+        margin-top: 1vw;
+    }
+    .network h3 i{
+        font-size: 2vw;
+        margin-left: 6vw;
+    }
+    .network h4{
+        font-size: 1vw;
+        margin-left: 9.5vw;
+        font-weight: 500;
+    
+    }
+    .first-card .left img{
+        height: 12vw;
+    }
+    .first-card .left .data-contain h2{
+        font-size: 1.5vw;
+    }
+    .first-card .right img{
+        height: 12vw;
+    }
+    .first-card .right .data-contain-2 h2{
+        font-size: 1.5vw;
+    }
+    .products h2{
+        margin-left: 5vw;
+    }
+    #left img{
+        height: 20vw;
+    }
+    #right img{
+        height: 20vw;
+    }
+    #left .bottom h2{
+        font-size: 1.5vw;
+    }
+    #right .bottom h2{
+        font-size: 1.5vw;
+    }
+    #left-card img{
+        height: 20vw;
+    }
+    #right-card img{
+        height: 20vw;
+    }
+    #left-card .bottom h2{
+        font-size: 1.5vw;
+    }
+    #right-card .bottom h2{
+        font-size: 1.5vw;
+    }
+    #only-one img{
+        height: 20vw;
+    }
+    #only-one .bottom h2{
+        font-size: 1.5vw;
+    }
+    .btn h5{
+        font-size: 1.5vw;
+    }
+    .footer{
+        height: 4.5vw;
+    }
+    .footer .logo img{
+        height: 4vw;
+        width: 6vw;
+    }
+    .footer .heading h2{
+        font-size: 1.2vw;
+    }
+}
